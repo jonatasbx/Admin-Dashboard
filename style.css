@@ -119,4 +119,47 @@ li>img{
 /* Área central */
 .main{
     background-color: lightgrey;
+    display: grid;
+    grid-template-rows: 1.5fr 6fr;
+}
+
+.header{
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.pesquisa{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.profile{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.busca {
+    display: inline-flex;
+    align-items: center;
+}
+
+input{
+    width: 60%;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.busca > img {
+    padding-right: 10px;
+    height: 20px;
+}
+
+.profile>img {
+    padding-right: 10px;
+    height: 20px;
+}
+#icone{
+    height: 50px;
 }
