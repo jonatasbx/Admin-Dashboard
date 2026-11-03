@@ -197,3 +197,39 @@ input{
     border-style: none;
 }
 
+/* Principal */
+
+.principal{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 5fr 2fr;
+    padding: 10px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.card{
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+/* Anuncios e trendings */
+
+.trending{
+    display:grid;
+    padding: 15px;
+    grid-template-rows: 1fr 6fr 1fr 6fr;
+}
+
+.anuncios,
+.trendings{
+    background-color: white;
+    margin: 10px;
+    border-radius: 15px;
+}
